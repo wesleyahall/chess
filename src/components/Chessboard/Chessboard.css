@@ -1,0 +1,9 @@
+.Chessboard {
+  width: 600px;
+  height: 600px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

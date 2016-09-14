@@ -1,0 +1,27 @@
+.Square {
+  width: 12.5%;
+  height: 12.5%;
+  display: table;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  z-index: 2;
+  position: relative;
+}
+
+.Square--dark {
+  background-color: #9e6c3b;
+}
+
+.Square--light {
+  background-color: #f0d9b5;
+}
+
+.Square__PositionInfo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 10px;
+  color: rgba(0, 0, 0, .5);
+}

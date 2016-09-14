@@ -1,0 +1,7 @@
+.Piece {
+  font-size: 36px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  z-index: 5;
+}
